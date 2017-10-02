@@ -23,6 +23,8 @@
 - Scala
 - Perl
 - sh
+ー c
+  - apache2 module 等
 - 日本語
   - ネイティブ
 - English
@@ -44,6 +46,24 @@
 ## 強み
 企画ブレストから、ラッドプロトタイピング、紙芝居など、とりあえず動く物を元に議論を行い
 思い描く物から、実際に動く物に短期間で昇華させる事が得意です。
+
+## 詳しい事
+### ruby
+- capistrano
+	- capistrano 経由での role毎にキューを変更するsidekiq
+	- capistrano 経由での itamae 実行( CI経由での itamae実行 )
+	- capistrano での デプロイ先 host解決に aws ec2のタグ利用
+
+- refile
+	- refile-s3の content_type 対応
+	- md5ベースのrefile キーの払い出し
+
+- ga/mixpanel 両対応の トラッキング
+- クローラー/スクレイピング 利用を簡潔に行う為の DSL
+- sidekiqベースのクローラー機構
+
+### java
+- java class bytecode structure
 
 ## 開発プロジェクト
 
