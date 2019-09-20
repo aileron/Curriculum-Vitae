@@ -5,8 +5,8 @@
 |key|value|
 |---|-----|
 |Name|芦沢 昌彦(Masahiko Ashizawa)|
-|website|[AILERON INC](http://aileron.cc/)|
-|Linkedin|[@aileron](https://twitter.com/aileron)|
+|website|[AILERON INC](https://aileron.cc/)|
+|Linkedin|[@aileron](http://linkedin.com/in/aileron)|
 |Twitter|[@aileron](https://twitter.com/aileron)|
 |Facebook|[@aileroncc](https://facebook.com/aileron.cc)|
 
@@ -36,41 +36,48 @@
   - I18N 対応したサービスやインドネシア語話者達との開発経験有り
 
 ### フレームワーク
-- Ruby on Rails(3,4,5)
-- Zend Framework
+- Ruby on Rails(3,4,5,6)
 - Servletベースの独自フレームワーク( ORM/テンプレートエンジン/ルーティング )
+- Zend Framework
 - Play Framework
 - Spring Framework
 - google/guice
 
 ## 強み
 企画ブレストから、ラッドプロトタイピング、紙芝居など、とりあえず動く物を元に議論を行い
-思い描く物から、実際に動く物に短期間で昇華させる事が得意です。
+考えから、実際に動く物に短期間で昇華させる事が得意です。
 
 ## 詳しい事
 ### ruby
+- クローラー/スクレイピング 利用を簡潔に行う為の DSL開発
+- ActiveStorage / Rack / Rails engine ...
 - capistrano
 	- capistrano 経由での role毎にキューを変更するsidekiq
 	- capistrano 経由での itamae 実行( CI経由での itamae実行 )
 	- capistrano での デプロイ先 host解決に aws ec2のタグ利用
-
+- ga/mixpanel 両対応の トラッキング
+- sidekiqベースのクローラー機構
 - refile
 	- refile-s3の content_type 対応
 	- md5ベースのrefile キーの払い出し
-
-- ga/mixpanel 両対応の トラッキング
-- クローラー/スクレイピング 利用を簡潔に行う為の DSL
-- sidekiqベースのクローラー機構
 
 ### java
 - java class bytecode structure
 
 ## 開発プロジェクト
 
-### 2016/07- : (AILERON INC) 業務委託案件：　インドネシアHRサービス
+### 2016/07- : (Aileron INC) 業務委託案件：　インドネシアHRサービス
 WEBアプリケーションエンジニア、ソフトウェアアーキテクト、インフラエンジニア、開発ディレクターとして全ての開発に従事しています。
-簡単なデザイン調整、フロントエンド、サービスプロトタイピング、AWS(クラウド環境を利用したインフラ構築)、CI、クローラーの開発等を行っています
+デザイン調整、フロントエンド、サービスプロトタイピング、AWS(クラウド環境を利用したインフラ構築)、CI、クローラーの開発等を行っています
 ウェブフロントエンド、社内管理画面、企業向け管理画面の開発を行っています
+
+### おもなシステム
+- 求人メディア(Rails)
+- 求人メディアAdminシステム(Rails)
+- 求人マガジン(Wordpress)
+- 外部リクルータ向け案件管理システム(Rails)
+- ヘッドハンティング業務用SFA/CRM(Rails)
+- 求人出稿/ヘッドハンティング委託企業向けシステム(Rails)
 
 #### 行った事
 - i18n対応
@@ -79,12 +86,10 @@ WEBアプリケーションエンジニア、ソフトウェアアーキテク�
 - 企業向け管理画面設計開発
 - 社内向け管理画面設計開発
 - クローリング環境の刷新の為のDSL開発
-- ティーチング
 - デザインリニューアル
 - インフラ運用/構築
 
 #### 技術要素
-
 - ruby(rails,cells,banken)
 - mysql(rds)
 - solr(sunspot)
@@ -92,11 +97,11 @@ WEBアプリケーションエンジニア、ソフトウェアアーキテク�
 - sidekiq(redis,elastic cache)
 - ci(circle ci,rspec)
 
-### 2016/03 - : （ＡＩＬＥＲＯＮ ＩＮＣ） 業務委託案件: 勤怠管理システム刷新
+### 2016/03 - : （Aileron INC） 業務委託案件: 勤怠管理システム刷新
 既存のPHP実装の勤怠システムのRuby版の刷新に共ない、プロトタイピングを行いました
 また、打刻システムをICカードリーダーおよびラズベリーパイを用いた形にして実装しました
 
-### 2015/12 - : (AILERON INC) 自社サービス検証: VRコンテンツプラットフォーム
+### 2015/12 - : (Aileron INC) 自社サービス検証: VRコンテンツプラットフォーム
 360°写真および、オブジェクトVRのアップロード、エンベット配信プラットフォーム開発
 サーバーレスWEBアプリケーションとして構築を行い、react-jsを用いたSPA形式での提供を行いました
 
