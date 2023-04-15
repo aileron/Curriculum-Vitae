@@ -70,13 +70,19 @@
 - refile
 	- refile-s3の content_type 対応
 	- md5ベースのrefile キーの払い出し
+- Kubernetes あんまりスキじゃない
 
 ### java
 - java class bytecode structure
+- DIとか、DDDとか
 
 ## 開発プロジェクト
 
-### 2021/10- : (aileron Inc.) 業務委託案件： 人材紹介会社 webサービス
+### 2022/11- : (Aileron Inc.) 業務委託案件： ヘアサロンの仲介サービス
+GBP(google business profile)等のマーケティング関連の支援においてAPI開発や運用設計
+(FB/Instagram/Tiktok広告や、SEOなど
+
+### 2021/10- : (Aileron Inc.) 業務委託案件： 人材紹介会社 webサービス
 line ログインを利用したマイページ (友達登録を同時に行う)
 salesforce と連動した求人情報ページ
 salesforce と連動したアンケートシステム
