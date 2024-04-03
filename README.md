@@ -22,6 +22,8 @@
 - PHP
 - Scala
 - Perl
+- TypeScript
+- Go
 - sh
 ー c
   - apache2 module 等
@@ -78,16 +80,16 @@
 
 ## 開発プロジェクト
 
-### 2022/11- : (Aileron Inc.) 業務委託案件： ヘアサロンの仲介サービス
+### 2022/11 - : (Aileron Inc.) 業務委託案件： ヘアサロンの仲介サービス
 GBP(google business profile)等のマーケティング関連の支援においてAPI開発や運用設計
 (FB/Instagram/Tiktok広告や、SEOなど
 
-### 2021/10- : (Aileron Inc.) 業務委託案件： 人材紹介会社 webサービス
+### 2021/10 - : (Aileron Inc.) 業務委託案件： 人材紹介会社 webサービス
 line ログインを利用したマイページ (友達登録を同時に行う)
 salesforce と連動した求人情報ページ
 salesforce と連動したアンケートシステム
 
-### 2021/08- : (Aileron Inc.) 業務委託案件： レシピサービス
+### 2021/08 - 2023/06 : (Aileron Inc.) 業務委託案件： レシピサービス
 レシピサービスの機能拡張
 ECサービスの機能拡張
 push配信等のマーケティング支援
